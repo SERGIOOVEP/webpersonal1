@@ -56,19 +56,20 @@ body {
     border: 2px solid;
 }
 
-img {
-    padding: 3px;
+.napa {
+    padding: 2px;
     border: 3px solid;
     border-radius: 6px;
     width: 350px;
     height: 400px;
     margin-left: 40%;
+
 }
 
 footer {
     text-align: center;
     font-family: 'Space Mono', monospace;
-    font-size: 20px;
+    font-size: x-large;
     border: 3px solid;
     padding: 2px;
     margin: 20px;
@@ -88,7 +89,7 @@ footer {
 .media {
     border: 3px solid;
     margin: 20px;
-    display:block;
+    justify-content: space-around;
 }
 
 
@@ -110,7 +111,8 @@ footer {
 .iconos {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    opacity: 90%;
     
 }
 
@@ -118,7 +120,19 @@ footer {
     font-size: x-large;
     
 }
-    
+
+.vestimenta {
+    width: 500px;
+}
+
+.metro {
+    width: 500px;
+}
+
+.cebra {
+    width: 500px;
+}
+
 
 
 
