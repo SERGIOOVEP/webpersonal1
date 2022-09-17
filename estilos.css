@@ -1,10 +1,10 @@
 header {
     text-align:center;
-    margin: 20px;
+    margin: 5px;
     border: 3px solid ;
     border-radius: 5px;
-    background-color:rgb(173, 242, 242);
     padding: 5px;
+    background-image:url(/img/fondocab.jpg)
 }
 
 p {
@@ -19,20 +19,18 @@ p {
 
 
 body {
-
-    background-size:cover;
-    background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-size: contain;
+    background-image: url(https://media.istockphoto.com/vectors/paw-print-animal-paw-footprint-footstep-footpath-vector-illustration-vector-id1001993016?k=20&m=1001993016&s=612x612&w=0&h=XolM_fAzB1ZUqEvLqxHtEZ2e30F0dNU9XFo43Z7VEIk=);
     font-style: italic ;
     font-weight: bold;
+    background-size: 250px;
     
 }
 
 .menu {
-    background-color: rgb(173, 242, 242);
+    background-image:url(/img/fondocab.jpg);
     font-size: x-large;
     padding: 50;
-    margin: 20px;
+    margin: 5px;
     text-align: center;
     border: 3px solid;
     border-radius: 5px;
@@ -68,12 +66,12 @@ body {
 footer {
     text-align: center;
     font-family: 'Space Mono', monospace;
-    font-size: x-large;
+    font-size:large;
     border: 3px solid;
     padding: 2px;
-    margin: 20px;
+    margin: 5px;
     border-radius: 5px;
-    background-color: rgb(173, 242, 242);
+    background-image:url(/img/fondocab.jpg);
 }
 
 .indice {
@@ -113,7 +111,9 @@ footer {
 
 .informacion {
     font-size: x-large;
-    margin: 20px;
+    margin: 5px;
+    border: 3px solid;
+    background-image:url(/img/fondocab.jpg);
     
 }
 
