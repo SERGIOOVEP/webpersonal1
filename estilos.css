@@ -1,29 +1,33 @@
 header {
     text-align:center;
     margin: 5px;
-    border: 3px solid ;
+    
     border-radius: 5px;
     padding: 5px;
     background-image:url(/img/fondocab.jpg)
 }
 
 p {
-    font-family: 'Space Mono', monospace;
-    padding: 10px;
-    text-align: center;
+    
     font-style: italic;
     font-family: 'Space Mono', monospace;
-    font-style: italic;
-    font-size:20px;
+    font-size: 18px;
+    border: 3px solid;
+    text-align:justify;
+    background-image:url(/img/fondocab.jpg);
+    border-radius: 15px;
+    height: 150px;
+    padding: 20px;
+    margin-top: 90px;
+
 }
 
 
 body {
-    background-image: url(https://media.istockphoto.com/vectors/paw-print-animal-paw-footprint-footstep-footpath-vector-illustration-vector-id1001993016?k=20&m=1001993016&s=612x612&w=0&h=XolM_fAzB1ZUqEvLqxHtEZ2e30F0dNU9XFo43Z7VEIk=);
+    background-image: url(/img/fondobody.jpg);
     font-style: italic ;
-    font-weight: bold;
-    background-size: 250px;
-    
+    font-weight: bold;  
+    opacity: 95%;
 }
 
 .menu {
@@ -32,7 +36,7 @@ body {
     padding: 50;
     margin: 5px;
     text-align: center;
-    border: 3px solid;
+  
     border-radius: 5px;
 
 }
@@ -55,19 +59,20 @@ body {
 
 .napa {
     padding: 2px;
-    border: 3px solid;
+    border: 3px solid ;
     border-radius: 6px;
     width: 350px;
     height: 400px;
-    margin-left: 40%;
+    margin-left: 5%;
 
+    
 }
 
 footer {
     text-align: center;
     font-family: 'Space Mono', monospace;
     font-size:large;
-    border: 3px solid;
+    
     padding: 2px;
     margin: 5px;
     border-radius: 5px;
@@ -110,11 +115,11 @@ footer {
 }
 
 .informacion {
-    font-size: x-large;
-    margin: 5px;
-    border: 3px solid;
-    background-image:url(/img/fondocab.jpg);
-    
+    margin: 90px;
+    text-align: left;
+    display:flex;
+    margin-left: 10%;
+
 }
 
 .vestimenta {
