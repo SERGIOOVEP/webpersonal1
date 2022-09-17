@@ -1,9 +1,5 @@
 header {
     text-align:center;
-    color: black;
-    font-family: 'Space Mono', monospace;
-    font-style: italic;
-    font-size: 20px;
     margin: 20px;
     border: 3px solid ;
     border-radius: 5px;
@@ -16,17 +12,20 @@ p {
     padding: 10px;
     text-align: center;
     font-style: italic;
+    font-family: 'Space Mono', monospace;
+    font-style: italic;
+    font-size:20px;
 }
 
 
 body {
 
     background-size:cover;
-
     background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: contain;
     font-style: italic ;
     font-weight: bold;
+    
 }
 
 .menu {
@@ -98,10 +97,6 @@ footer {
     font-family: 'Space Mono', monospace;
 }
 
-.separador {
-    border-bottom: 1px solid black;
-    
-}
 
 .logo {
     width: 64px;
@@ -118,21 +113,33 @@ footer {
 
 .informacion {
     font-size: x-large;
+    margin: 20px;
     
 }
 
 .vestimenta {
     width: 500px;
+    border: 5px solid;
 }
 
 .metro {
     width: 500px;
+    border: 5px solid;
 }
 
 .cebra {
     width: 500px;
+    border: 5px solid;
 }
 
+.autismo {
+    width: 500px;
+    border: 5px solid;
+}
+
+.fundacion {
+    width: 100px;
+}
 
 
 
