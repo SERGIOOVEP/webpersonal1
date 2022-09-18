@@ -11,13 +11,10 @@ p {
     font-style: italic;
     font-family: 'Space Mono', monospace;
     font-size: 18px;
-    border: 3px solid rgb(127, 126, 126);;
+    border: 3px solid rgb(127, 126, 126);
     text-align:center;
     background-image:url(/img/fondocab.jpg);
     border-radius: 15px;
-    height: 150px;
-    padding: 20px;
-    margin-top: 90px;
 
 }
 
@@ -25,7 +22,7 @@ body {
     background-image: url(/img/fondobody.jpg);
     font-style: italic ;
     font-weight: bold;  
-    opacity: 95%;
+    
 }
 
 .menu {
@@ -62,7 +59,6 @@ body {
     width: 350px;
     height: 400px;
     margin-left: 5%;
-
     
 }
 
@@ -120,6 +116,14 @@ footer {
     margin-left: 10%;
 }
 
+.informacion p {
+    text-align: center;
+    width: 35%;
+    height: 20%;
+    padding: 2%;
+    margin-left: 10%;
+}
+
 h3 {
     text-align: center;
     border: 3px solid rgb(127, 126, 126);
@@ -129,32 +133,37 @@ h3 {
 }
 
 .labor{
-    text-align: justify;
+    
     font-size:20px;
     font-family: 'Space Mono', monospace;
     border: 3px;
     background-image:url(/img/fondocab.jpg);
     padding: 10px;
     margin: 5px;
+    display: block;
+    margin-left: 20%;
+    text-align: center;
+    
 }
 
 .cebra {
-    width: 310px;
+    width: 270px;
     height: 200px;
 }
 
 .guia {
-    width: 310px;
+    width: 270px;
     height: 200px;
 }
 
 .metro {
-    width: 305px;
+    width: 270px;
     height: 200px;
+    
 }
 
 .autismo {
-    width: 305px;
+    width: 270px;
     height: 200px;
 }
 
@@ -166,12 +175,12 @@ h3 {
 }
 
 .dosperros {
-    width: 310px;
+    width: 270px;
     height: 200px;
 }
 
 .escaleras {
-    width: 305px;
+    width: 270px;
     height: 200px;
 }
 
@@ -183,8 +192,32 @@ h3 {
 }
 
 .fotosguia {
-    margin-left: 10px;
-    border: 3px solid rgb(127, 126, 126);
+    margin-left: 40%;
     margin: 5px;
+  
+}
 
+
+.videoguia {
+    margin-left: 35%;
+}
+
+.labrador {
+    color: red;
+}
+
+.golden {
+    color: rgb(255, 0, 208);
+}
+
+.pastoraleman {
+    color: rgb(0, 34, 255);
+}
+
+.flat {
+    color: rgb(17, 129, 36);
+}
+
+.caniche {
+    color: rgb(9, 2, 10);
 }
