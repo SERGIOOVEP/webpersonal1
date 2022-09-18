@@ -7,7 +7,6 @@ header {
 }
 
 p {
-    
     font-style: italic;
     font-family: 'Space Mono', monospace;
     font-size: 18px;
@@ -71,7 +70,6 @@ footer {
     border-radius: 5px;
     background-image:url(/img/fondocab.jpg);
     
-
 }
 
 .indice {
@@ -102,11 +100,6 @@ footer {
     height: 64px;
     border: 3px solid rgb(127, 126, 126);
     margin-top: 3px;
-}
-.iconos{
-    margin-right: 5%;
-    flex-direction: row;
-    justify-content: space-evenly;
 }
 
 .informacion {
@@ -143,7 +136,6 @@ h3 {
     display: block;
     margin-left: 20%;
     text-align: center;
-    
 }
 
 .cebra {
@@ -170,7 +162,6 @@ h3 {
 .solicitud {
     padding: 10px;
     width: 400px;
-    height: 300px;
     margin-left: 35%;
 }
 
@@ -188,15 +179,12 @@ h3 {
     color: white;
     border: 1px solid;
     height: 5px;
-    
 }
 
 .fotosguia {
     margin-left: 40%;
     margin: 5px;
-  
 }
-
 
 .videoguia {
     margin-left: 35%;
@@ -220,4 +208,51 @@ h3 {
 
 .caniche {
     color: rgb(9, 2, 10);
+}
+
+.solicitud p {
+    text-align: justify;
+    padding: 20px;
+    width: 500px;
+}
+
+form {
+    text-align: justify;
+    font-style: italic;
+    font-family: 'Space Mono', monospace;
+    margin-left: 40%;
+   
+}
+
+
+.nombre {
+    text-align: justify;
+    padding: 5px;
+   
+}
+
+.apellidos {
+    text-align: justify;
+    padding: 5px;
+   
+
+}
+
+.telefono {
+    text-align: justify;
+    padding: 5px;
+    margin top: 5px;
+    border top:10px
+}
+
+.correo {
+    text-align: justify;
+    padding: 5px;
+    margin top: 5px;
+}
+
+.dudas {
+    text-align: justify;
+    padding: 5px;
+    margin top: 5px;
 }
