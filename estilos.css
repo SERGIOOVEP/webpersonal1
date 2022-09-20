@@ -10,7 +10,7 @@ p {
     font-style: italic;
     font-family: 'Space Mono', monospace;
     font-size: 18px;
-    border: 3px solid rgb(127, 126, 126);
+    
     text-align:center;
     background-image:url(/img/fondocab.jpg);
     border-radius: 15px;
@@ -26,11 +26,9 @@ body {
 .menu {
     background-image:url(/img/fondocab.jpg);
     font-size: x-large;
-    padding: 50;
     margin: 5px;
     text-align: center;
     border-radius: 5px;
-
 }
 
 .menu li a {
@@ -64,11 +62,10 @@ footer {
     text-align: center;
     font-family: 'Space Mono', monospace;
     font-size:large;
-    padding: 2px;
     margin: 5px;
     border-radius: 5px;
     background-image:url(/img/fondocab.jpg);
-    align-self: flex-end;
+   
     
 }
 
@@ -88,12 +85,6 @@ footer {
     margin: 20px;
     justify-content: space-around;
 }
-
-
-.formulario {
-    font-family: 'Space Mono', monospace;
-}
-
 
 .logo {
     width: 64px;
@@ -133,29 +124,36 @@ h3 {
     padding: 10px;
     margin: 5px;
     display: block;
-    margin-left: 20%;
+    
     text-align: center;
 }
 
 .cebra {
-    width: 270px;
+    width: 300px;
     height: 200px;
+    border: solid;
 }
 
 .guia {
-    width: 270px;
+    width: 300px;
     height: 200px;
+    margin-left: 5px;
+    border: solid;
 }
 
 .metro {
-    width: 270px;
+    width: 300px;
     height: 200px;
-    
+    border: solid;
+
 }
 
 .autismo {
-    width: 270px;
+    width: 290px;
     height: 200px;
+    margin-left: 5px;
+    border: solid;
+    
 }
 
 .solicitud {
@@ -165,13 +163,16 @@ h3 {
 }
 
 .dosperros {
-    width: 270px;
+    width: 290px;
     height: 200px;
+    margin-left: 5px;
+    border: solid;
 }
 
 .escaleras {
-    width: 270px;
+    width: 290px;
     height: 200px;
+    border: solid;
 }
 
 .iconos a {
@@ -182,11 +183,13 @@ h3 {
 
 .fotosguia {
     margin-left: 40%;
-    margin: 5px;
+    margin: 20px;
+    
 }
 
 .videoguia {
     margin-left: 35%;
+    
 }
 
 .labrador {
@@ -220,27 +223,24 @@ form {
     font-style: italic;
     font-family: 'Space Mono', monospace;
     margin-left: 40%;
-   
 }
 
 
 .nombre {
     text-align: justify;
     padding: 5px;
-   
 }
 
 .apellidos {
     text-align: justify;
     padding: 5px;
-
 }
 
 .telefono {
     text-align: justify;
     padding: 5px;
     margin top: 5px;
-    border top:10px;
+    border top: 10px;
 }
 
 .correo {
@@ -254,3 +254,10 @@ form {
     padding: 5px;
     margin margin-top: 5px;
 }
+
+
+.iconos {
+    margin-top: 200px;
+
+}
+
