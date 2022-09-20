@@ -14,7 +14,6 @@ p {
     text-align:center;
     background-image:url(/img/fondocab.jpg);
     border-radius: 15px;
-
 }
 
 body {
@@ -69,6 +68,7 @@ footer {
     margin: 5px;
     border-radius: 5px;
     background-image:url(/img/fondocab.jpg);
+    align-self: flex-end;
     
 }
 
@@ -126,7 +126,6 @@ h3 {
 }
 
 .labor{
-    
     font-size:20px;
     font-family: 'Space Mono', monospace;
     border: 3px;
@@ -234,7 +233,6 @@ form {
 .apellidos {
     text-align: justify;
     padding: 5px;
-   
 
 }
 
@@ -242,7 +240,7 @@ form {
     text-align: justify;
     padding: 5px;
     margin top: 5px;
-    border top:10px
+    border top:10px;
 }
 
 .correo {
@@ -254,5 +252,5 @@ form {
 .dudas {
     text-align: justify;
     padding: 5px;
-    margin top: 5px;
+    margin margin-top: 5px;
 }
