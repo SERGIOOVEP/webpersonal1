@@ -65,6 +65,10 @@ footer {
     margin: 5px;
     border-radius: 5px;
     background-image:url(/img/fondocab.jpg);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    
    
     
 }
@@ -76,7 +80,7 @@ footer {
     border: 3px ;
     margin:5px;
     background-image:url(/img/fondocab.jpg);
-    padding: 12px;
+    padding: 5px;
 }
 
 
@@ -130,27 +134,27 @@ h3 {
 
 .cebra {
     width: 300px;
-    height: 200px;
+    height: 180px;
     border: solid;
 }
 
 .guia {
     width: 300px;
-    height: 200px;
+    height: 180px;
     margin-left: 5px;
     border: solid;
 }
 
 .metro {
-    width: 300px;
-    height: 200px;
+    width: 290px;
+    height: 180px;
     border: solid;
 
 }
 
 .autismo {
-    width: 290px;
-    height: 200px;
+    width: 300px;
+    height: 180px;
     margin-left: 5px;
     border: solid;
     
@@ -163,15 +167,15 @@ h3 {
 }
 
 .dosperros {
-    width: 290px;
-    height: 200px;
+    width: 300px;
+    height: 180px;
     margin-left: 5px;
     border: solid;
 }
 
 .escaleras {
-    width: 290px;
-    height: 200px;
+    width: 310px;
+    height: 180px;
     border: solid;
 }
 
@@ -182,8 +186,8 @@ h3 {
 }
 
 .fotosguia {
-    margin-left: 40%;
-    margin: 20px;
+   
+    margin: 5px;
     
 }
 
@@ -255,9 +259,4 @@ form {
     margin margin-top: 5px;
 }
 
-
-.iconos {
-    margin-top: 200px;
-
-}
 
