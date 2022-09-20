@@ -1,30 +1,30 @@
 header {
-    text-align:center;
+    text-align: center;
     margin: 5px;
     border-radius: 5px;
     padding: 5px;
-    background-image:url(/img/fondocab.jpg)
+    background-image: url(/img/fondocab.jpg)
 }
 
 p {
     font-style: italic;
     font-family: 'Space Mono', monospace;
     font-size: 18px;
-    
-    text-align:center;
-    background-image:url(/img/fondocab.jpg);
+
+    text-align: center;
+    background-image: url(/img/fondocab.jpg);
     border-radius: 15px;
 }
 
 body {
     background-image: url(/img/fondobody.jpg);
-    font-style: italic ;
-    font-weight: bold;  
-    
+    font-style: italic;
+    font-weight: bold;
+
 }
 
 .menu {
-    background-image:url(/img/fondocab.jpg);
+    background-image: url(/img/fondocab.jpg);
     font-size: x-large;
     margin: 5px;
     text-align: center;
@@ -34,7 +34,7 @@ body {
 .menu li a {
     color: black;
     padding: 15px;
-    display:block;
+    display: block;
 }
 
 .menu li {
@@ -42,7 +42,7 @@ body {
 }
 
 .menu li a:hover {
-    color:orange;
+    color: orange;
     background-color: rgb(255, 255, 255);
     border-radius: 3px;
     border: 2px solid;
@@ -55,31 +55,28 @@ body {
     width: 350px;
     height: 360px;
     margin-left: 5%;
-    
+
 }
 
 footer {
     text-align: center;
     font-family: 'Space Mono', monospace;
-    font-size:large;
+    font-size: large;
     margin: 5px;
     border-radius: 5px;
-    background-image:url(/img/fondocab.jpg);
+    background-image: url(/img/fondocab.jpg);
     position: absolute;
     width: 100%;
     bottom: 0;
-    
-   
-    
 }
 
 .indice {
     text-align: left;
     font-family: 'Space Mono', monospace;
     font-size: 20px;
-    border: 3px ;
-    margin:5px;
-    background-image:url(/img/fondocab.jpg);
+    border: 3px;
+    margin: 5px;
+    background-image: url(/img/fondocab.jpg);
     padding: 5px;
 }
 
@@ -100,7 +97,7 @@ footer {
 .informacion {
     margin: 50px;
     text-align: left;
-    display:flex;
+    display: flex;
     margin-left: 10%;
 }
 
@@ -115,25 +112,24 @@ footer {
 h3 {
     text-align: center;
     border: 3px solid rgb(127, 126, 126);
-    background-image:url(/img/fondocab.jpg);
+    background-image: url(/img/fondocab.jpg);
     padding: 12px;
     font-size: x-large;
 }
 
-.labor{
-    font-size:20px;
+.labor {
+    font-size: 20px;
     font-family: 'Space Mono', monospace;
     border: 3px;
-    background-image:url(/img/fondocab.jpg);
-    padding: 10px;
+    background-image: url(/img/fondocab.jpg);
+    padding: 1px;
     margin: 5px;
     display: block;
-    
     text-align: center;
 }
 
 .cebra {
-    width: 300px;
+    width: 301px;
     height: 180px;
     border: solid;
 }
@@ -157,7 +153,7 @@ h3 {
     height: 180px;
     margin-left: 5px;
     border: solid;
-    
+
 }
 
 .solicitud {
@@ -185,15 +181,19 @@ h3 {
     height: 5px;
 }
 
+.iconos {
+    margin-right: 5%;
+}
+
+
 .fotosguia {
-   
+
     margin: 5px;
-    
+
 }
 
 .videoguia {
     margin-left: 35%;
-    
 }
 
 .labrador {
@@ -227,6 +227,9 @@ form {
     font-style: italic;
     font-family: 'Space Mono', monospace;
     margin-left: 40%;
+    padding: 10px;
+    border-radius: 5px;
+
 }
 
 
@@ -259,4 +262,37 @@ form {
     margin margin-top: 5px;
 }
 
+.logoguia {
+    opacity: 80%;
+    border: solid;
+}
 
+
+input,
+textarea {
+
+    border: solid 2px;
+    background-color: rgb(174, 236, 135);
+    font-family: 'Space Mono', monospace;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 300px;
+
+}
+
+form .envio {
+    height: 30px;
+    width: 312px;
+    background-color: rgb(94, 169, 227);
+    
+}
+
+textarea {
+    max-width: 300px;
+    max-height: 200px;
+
+}
+
+form .envio:hover {
+    background-color: rgb(236, 22, 22);
+}
