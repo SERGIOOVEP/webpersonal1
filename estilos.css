@@ -68,7 +68,7 @@ footer {
     position: absolute;
     width: 98.5%;
     bottom: 0;
-    
+
 }
 
 .indice {
@@ -129,51 +129,18 @@ h3 {
     text-align: center;
 }
 
-.cebra {
-    width: 301px;
-    height: 180px;
-    border: solid;
-}
-
-.guia {
-    width: 300px;
-    height: 180px;
-    margin-left: 5px;
-    border: solid;
-}
-
-.metro {
-    width: 290px;
-    height: 180px;
-    border: solid;
-
-}
-
-.autismo {
-    width: 300px;
-    height: 180px;
-    margin-left: 5px;
-    border: solid;
-
-}
 
 .solicitud {
-    padding: 10px;
-    width: 400px;
-    margin-left: 35%;
+    padding: 30px;
+    height: 100px;
+    justify-content: center;
+    
 }
 
-.dosperros {
-    width: 300px;
-    height: 180px;
-    margin-left: 5px;
-    border: solid;
-}
-
-.escaleras {
-    width: 310px;
-    height: 180px;
-    border: solid;
+.solicitud p {
+    width: 500px;
+    display: flex;
+    margin-left: 650px;
 }
 
 .iconos a {
@@ -184,13 +151,6 @@ h3 {
 
 .iconos {
     margin-right: 5%;
-}
-
-
-.fotosguia {
-
-    margin: 5px;
-
 }
 
 .videoguia {
@@ -217,11 +177,7 @@ h3 {
     color: rgb(9, 2, 10);
 }
 
-.solicitud p {
-    text-align: justify;
-    padding: 20px;
-    width: 500px;
-}
+
 
 form {
     text-align: justify;
@@ -247,20 +203,20 @@ form {
 .telefono {
     text-align: justify;
     padding: 5px;
-    margin top: 5px;
-    border top: 10px;
+    margin-top: 5px;
+    border-top: 10px;
 }
 
 .correo {
     text-align: justify;
     padding: 5px;
-    margin top: 5px;
+    margin-top: 5px;
 }
 
 .dudas {
     text-align: justify;
     padding: 5px;
-    margin margin-top: 5px;
+    margin-top: 5px;
 }
 
 .logoguia {
@@ -285,7 +241,7 @@ form .envio {
     height: 30px;
     width: 312px;
     background-color: rgb(94, 169, 227);
-    
+
 }
 
 textarea {
@@ -298,3 +254,13 @@ form .envio:hover {
     background-color: rgb(236, 22, 22);
 }
 
+.fotosguia {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    
+}
+
+.informacion {
+
+}
