@@ -10,7 +10,6 @@ p {
     font-style: italic;
     font-family: 'Space Mono', monospace;
     font-size: 18px;
-
     text-align: center;
     background-image: url(/img/fondocab.jpg);
     border-radius: 15px;
@@ -55,7 +54,10 @@ body {
     width: 350px;
     height: 360px;
     margin-left: 5%;
+}
 
+.napa:hover {
+    transform: rotate();
 }
 
 footer {
@@ -68,7 +70,6 @@ footer {
     position: absolute;
     width: 98.5%;
     bottom: 0;
-
 }
 
 .indice {
@@ -116,6 +117,7 @@ h3 {
     background-image: url(/img/fondocab.jpg);
     padding: 12px;
     font-size: x-large;
+
 }
 
 .labor {
@@ -134,7 +136,7 @@ h3 {
     padding: 30px;
     height: 100px;
     justify-content: center;
-    
+
 }
 
 .solicitud p {
@@ -177,8 +179,6 @@ h3 {
     color: rgb(9, 2, 10);
 }
 
-
-
 form {
     text-align: justify;
     font-style: italic;
@@ -186,9 +186,7 @@ form {
     margin-left: 40%;
     padding: 10px;
     border-radius: 5px;
-
 }
-
 
 .nombre {
     text-align: justify;
@@ -203,27 +201,22 @@ form {
 .telefono {
     text-align: justify;
     padding: 5px;
-    margin-top: 5px;
-    border-top: 10px;
 }
 
 .correo {
     text-align: justify;
     padding: 5px;
-    margin-top: 5px;
 }
 
 .dudas {
     text-align: justify;
     padding: 5px;
-    margin-top: 5px;
 }
 
 .logoguia {
     opacity: 80%;
     border: solid;
 }
-
 
 input,
 textarea {
@@ -241,7 +234,11 @@ form .envio {
     height: 30px;
     width: 312px;
     background-color: rgb(94, 169, 227);
+}
 
+
+form .envio:hover {
+    background-color: rgb(236, 22, 22);
 }
 
 textarea {
@@ -250,17 +247,14 @@ textarea {
 
 }
 
-form .envio:hover {
-    background-color: rgb(236, 22, 22);
-}
-
 .fotosguia {
     display: flex;
     padding: 5px;
     justify-content: space-between;
-    
 }
 
-.informacion {
 
+.mapa {
+    color: red;
+    margin: 5px;
 }
